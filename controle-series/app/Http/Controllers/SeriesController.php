@@ -20,11 +20,22 @@ class SeriesController extends Controller
             'Grey\'s Anatomy'
         ];
 
-        $html = '<ul>';
-        foreach ($series as $serie) {
-            $html .= "<li>$serie</li>";
-        }
-        $html .= '</ul>';
-        return $html;
+        // $html = '<ul>';
+        // foreach ($series as $serie) {
+        //     $html .= "<li>$serie</li>";
+        // }
+        // $html .= '</ul>';
+        // return $html;
+        // return view('listar-series', [
+        //     'series' => $series
+        // ]);
+        // return view('listar-series', compact('series'));
+        // return view('listar-series')->with('series', $series);
+        return view('series.index')->with('series', $series);
+    }
+
+    public function create(Request $request)
+    {
+        return view('series.create');
     }
 }
