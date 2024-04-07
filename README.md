@@ -5,3 +5,4 @@ Projeto do curso "Laravel criando uma aplicação com MVC" da Alura
 ## Links
 
 - [PHP](https://www.php.net/)
+- [laravel](https://laravel.com/)
