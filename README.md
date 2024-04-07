@@ -1,4 +1,4 @@
-# php_10
+# php_11_laravel_01
 
 Projeto do curso "Laravel criando uma aplicação com MVC" da Alura
 
